@@ -7,7 +7,7 @@ def main():
     time.sleep(5)
 
     # Load data
-    df = pd.read_csv('weather.csv')
+    df = pd.read_csv('/home/posit/positron101/weather.csv')
     print(f"Loaded {len(df)} records")
     time.sleep(3)
 
