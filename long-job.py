@@ -36,7 +36,7 @@ def main():
 
     print("Saving plot...")
     time.sleep(5)
-    plt.savefig('weather_plot_py.png')
+    plt.savefig('/home/posit/positron101/weather_plot_py.png')
 
     print("Generating summary statistics...")
     time.sleep(8)
@@ -48,7 +48,7 @@ def main():
 
     print("Saving results...")
     time.sleep(3)
-    summary.to_csv('weather_summary_py.csv')
+    summary.to_csv('/home/posit/positron101/weather_summary_py.csv')
 
     print("Analysis complete! Files saved: weather_plot_py.png, weather_summary_py.csv")
 
